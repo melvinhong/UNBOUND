@@ -15,4 +15,37 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-console.log('Hello World from Webpacker')
+// Startup Scripts
+$(document).ready(function()
+{
+	$('.carousel').css('height', ($(window).height() - $('header').outerHeight()) + 'px'); // Set carousel to fill page height
+
+	$('#scroll-carousel').click(function()
+	{
+		$('html,body').animate({scrollTop: $("#carousel-bloc").height()}, 'slow');
+	});
+});
+
+
+// Window resize
+$(window).resize(function()
+{
+	$('.carousel').css('height', ($(window).height() - $('header').outerHeight()) + 'px'); // Refresh carousel height
+});
+
+// Back To Top btn
+
+$(function() {
+
+  var $btn = $('#btnTop');
+  var $home = $('#topSection');
+  var startpoint = $home.scrollTop() + $home.height();
+
+  $(window).on('scroll', function() {
+    if($(window).scrollTop() > startpoint) {
+      $btn.show();
+    } else {
+      $btn.hide();
+    }
+  });
+});
