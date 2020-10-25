@@ -19,6 +19,13 @@ a:hover{color:#333;}
 
 /* Globals type styling */
 
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  width: 80%;
+}
+
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Open Sans", sans-serif;
   letter-spacing: 0.03em;
