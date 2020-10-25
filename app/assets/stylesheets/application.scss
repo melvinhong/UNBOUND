@@ -366,3 +366,13 @@ width: 100%;
   .py-5 {
     padding-top: 5rem !important;
   }
+
+  // backtotop button
+
+  #backToTopBtn {
+  cursor: pointer;
+  }
+
+  #backToTopBtn:hover {
+  background-color: #555;
+  }
