@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .navbar-brand img{
 	width: auto;
-	max-height: 40px;
+	max-height: 80px;
 	margin: -12px 5px 0 0;
 }
 .navbar-brand{
@@ -353,4 +353,9 @@ width: 100%;
 
   .d-flex {
     display: flex !important;
+  }
+
+  .pt-5,
+  .py-5 {
+    padding-top: 5rem !important;
   }
