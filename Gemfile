@@ -6,8 +6,8 @@ ruby '2.7.0'
 # Sketchfab
 gem 'sketchfably'
 
-# Font
-gem 'font-awesome-rails'
+# FontAwesome
+gem 'font-awesome-sass', '~> 5.15.1'
 
 # Page
 gem 'will_paginate', '~> 3.1.1'
