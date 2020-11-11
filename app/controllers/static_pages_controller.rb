@@ -6,5 +6,9 @@ class StaticPagesController < ApplicationController
   end
 
   def team
-  end 
+  end
+
+  def designers
+  end
+
 end
